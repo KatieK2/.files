@@ -1,0 +1,29 @@
+[user]
+	name = katiek
+	email = kkgithug@gmail.com
+[http]
+	sslVerify = false
+[core]
+	autocrlf = true
+	editor = 'C:\\Program Files\\Sublime Text 2\\sublime_text.exe' -w
+[push]
+	default = current
+[branch]
+	autosetuprebase = always
+[alias]
+	m = checkout master
+	lg = !git --no-pager log -40 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit ## Pretty log
+	st = status -sb #https://coderwall.com/p/z7py8a
+	ba = checkout -b #Create new branch and switch to it.  Won't change / lose unstaged changes
+	dq = diff --ignore-all-space --ignore-blank-lines ## Quick diff
+	df = diff # Full diff
+	##cam = add -A & commit -m #Add files and Commit changes, with a message
+	unstage = reset HEAD --  ##[file] Unstage a staged file
+	dryrun = merge --no-commit --no-ff ## Don't forget branch name. practice a merge.
+	cleanup = branch --merged master | grep -v 'master$' | xargs git branch -d  ## Deletes all safely merged branches http://lukas.zapletalovi.com/2012/07/my-git-aliases-again.html
+[color]
+	ui = true
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
