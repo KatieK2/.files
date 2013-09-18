@@ -1,0 +1,37 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"default_font_size": 10,
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"open_files_in_new_window": false, 
+	/*
+	"save_on_focus_lost": true,  // Automatically saves the file you’re editing when you leave it.
+	"wordWrap": true,  // Word wrap set to always be on. **
+	"line_padding_bottom": 1,  // Gives each line a bit of padding underneath it, making for easier to read text
+	*/
+	"file_exclude_patterns":
+	[
+		".bak",
+		".DS_Store",
+		"Thumbs.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"tmp"
+	],
+	"ignored_packages":
+	[
+		"Vintage",
+		"FileDiffs"
+	],
+	"ignored_words":
+	[
+		"Newsmaker",
+		"Photoshop"
+	]
+}
