@@ -1,17 +1,13 @@
 {
-	"bold_folder_labels": true,
+	"color_scheme": "Packages/Oblivion Color Scheme/Oblivion - Soda Dark.tmTheme",
+	"highlight_line": true,			// Use special color for line where cursor is.
+	"highlight_modified_tabs": true,// Use special color for text in tab if a file is not saved.
+	"bold_folder_labels": true,		// In sidebar, show all folders with bold font
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-	"default_font_size": 10,
-	"font_size": 10,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"open_files_in_new_window": false, 
-	/*
-	"save_on_focus_lost": true,  // Automatically saves the file you’re editing when you leave it.
-	"wordWrap": true,  // Word wrap set to always be on. **
-	"line_padding_bottom": 1,  // Gives each line a bit of padding underneath it, making for easier to read text
-	*/
+	"word_wrap": "false",			// Open all files with word wrap off.
+	//"default_font_size": 10,		// For http://toomanyideas.net/2013/improve-sublime-text-2-part-1.html which I can't get working
+	//"save_on_focus_lost": true, 	// Automatically saves the file you’re editing when you leave it.
+	//"line_padding_bottom": 1,		// Gives each line a bit of padding underneath it, making for easier to read text
 	"file_exclude_patterns":
 	[
 		".bak",
@@ -26,12 +22,12 @@
 	],
 	"ignored_packages":
 	[
-		"Vintage",
-		"FileDiffs"
+		"Vintage"
 	],
 	"ignored_words":
 	[
 		"Newsmaker",
 		"Photoshop"
-	]
+	],
+	"open_files_in_new_window": false
 }
