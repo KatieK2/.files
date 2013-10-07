@@ -5,17 +5,18 @@
 	"file_exclude_patterns":			// Don't show in sidebar or GoToAnything
 	  [".bak", ".DS_Store", "Thumbs.db"],
 	"folder_exclude_patterns":			// Don't show in sidebar or GoToAnything
-	  [".git", ".sass-cache", "tmp"],
+	  [".git", ".sass-cache", "tmp", "bin", "wp-admin", "wp-includes"],
 	"highlight_line": true,				// Use special color for line where cursor is.
-	"highlight_modified_tabs": true,	// Use special color for filename in an unsaved tab.
+	"highlight_modified_tabs": true,		// Use special color for filename in an unsaved tab.
 	"ignored_packages":
 	  ["Vintage"],
-	"ignored_words":					// Ignored during spellcheck
+	"ignored_words":				// Ignored during spellcheck
 	  ["Newsmaker", "Photoshop"],
 	"open_files_in_new_window": false,
+	"trim_trailing_white_space_on_save": true,	// When a file is saved, delete any whitespace at the end of lines
 	"word_wrap": "false", 
 	"wide_caret": true
 	//"default_font_size": 10, 			// For http://toomanyideas.net/2013/improve-sublime-text-2-part-1.html which I can't get working
-	//"save_on_focus_lost": true, 		// Automatically saves the file you’re editing when you leave it.
-	//"line_padding_bottom": 1, 		// Gives each line a bit of padding underneath it, making for easier to read text
+	//"save_on_focus_lost": true, 			// Automatically saves the file you’re editing when you leave it.
+	//"line_padding_bottom": 1, 			// Gives each line a bit of padding underneath it
 }
