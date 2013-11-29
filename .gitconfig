@@ -1,3 +1,5 @@
+# Store in user directory for both OSX(~) and Win7(User/[you])
+
 [user]
 	name = katiek
 	email = kkgithub@gmail.com
