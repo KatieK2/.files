@@ -7,6 +7,9 @@ alias dir="ls"
 ## Make help be man
 alias help="man"
 
+## Make cls be clear
+alias cls="clear"
+
 ## tell ls to be colourful
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
