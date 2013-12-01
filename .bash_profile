@@ -10,6 +10,11 @@ alias help="man"
 ## Make cls be clear
 alias cls="clear"
 
+## Open man pages in Sublime
+sman() {
+    man "${1}" | col -b | open -f -a /Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2
+}
+
 ## tell ls to be colourful
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
