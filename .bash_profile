@@ -24,5 +24,5 @@ export GREP_OPTIONS='--color=auto'
 
 ## Configure prompt
 PS1='
-$PWD
+\h: $PWD
 $ '
