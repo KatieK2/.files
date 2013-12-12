@@ -1,4 +1,4 @@
-## Drop this in your user folder in Windows7.
+REM   Drop this in your user folder in Windows7.
 
 @ECHO OFF
 doskey ..=cd..
