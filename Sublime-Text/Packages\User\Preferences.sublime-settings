@@ -1,5 +1,5 @@
 {
-	"afn_insert_dimensions": "false",										// AutoFileName - don't automatically insert image dimensions
+	"afn_insert_dimensions": "false",                   // For AutoFileName, don't insert image dimensions										// AutoFileName - don't automatically insert image dimensions
 	"bold_folder_labels": true,                         // In sidebar, show all folders with bold font
 	"caret_style": "phase",                             // Cursor blink transitions
 	"close_windows_when_empty": false,
@@ -21,7 +21,7 @@
 	],
 	"font_options":
 	[
-		"subpixel_antialias"
+		"subpixel_antialias"                        // Prettier text
 	],
 	"font_size": 10.0,                                  // Will be overridden by platform specific settings
 	"highlight_line": true,                             // Use alternate background color for line where cursor is.
