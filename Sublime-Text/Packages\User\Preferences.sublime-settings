@@ -2,16 +2,17 @@
 	"afn_insert_dimensions": "false",										// AutoFileName - don't automatically insert image dimensions
 	"bold_folder_labels": true,                         // In sidebar, show all folders with bold font
 	"caret_style": "phase",                             // Cursor blink transitions
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Oblivion Color Scheme/Oblivion - Soda Dark.tmTheme",
 	"ensure_newline_at_eof_on_save": true,              // Be sure all saved files end in a new line
 	"fallback_encoding": "UTF-8",                       // Use this encoding when it can't be determined automatically
-	"find_selected_text": true,                         // "Find" field is pre-seeded with highlighed text in document. Keeping this in user prefs ensures it works on OSX.
 	"file_exclude_patterns":                            // Don't show in sidebar or GoToAnything
 	[
 		".bak",
 		".DS_Store",
 		"Thumbs.db"
 	],
+	"find_selected_text": true,                         // "Find" field is pre-seeded with highlighed text in document. Keeping this in user prefs ensures it works on OSX.
 	"folder_exclude_patterns":                          // Don't show in sidebar or GoToAnything
 	[
 		".git",
@@ -47,6 +48,8 @@
 	],
 	"open_files_in_new_window": false,                  // Whether OSX open dragged-in files in a new ST window
 	"show_full_path": true,                             // Whether title bar shows entire file path instead of just name. Keeping this in user prefs ensures it works on OSX.
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,                 // Removes any auto-indented whitespace when moving cursor
 	"trim_trailing_white_space_on_save": true,          // When a file is saved, delete any whitespace at the end of lines
 	"wide_caret": true,                                 // Have a wider cursor marker
