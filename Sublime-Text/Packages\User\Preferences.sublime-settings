@@ -1,5 +1,5 @@
 {
-	"afn_insert_dimensions": "false",                   // For AutoFileName, don't insert image dimensions										// AutoFileName - don't automatically insert image dimensions
+	"afn_insert_dimensions": "false",                   // AutoFileName - don't automatically insert image dimensions
 	"bold_folder_labels": true,                         // In sidebar, show all folders with bold font
 	"caret_style": "phase",                             // Cursor blink transitions
 	"close_windows_when_empty": false,
@@ -21,7 +21,7 @@
 	],
 	"font_options":
 	[
-		"subpixel_antialias"                        // Prettier text
+		"subpixel_antialias"                              // Prettier text
 	],
 	"font_size": 10.0,                                  // Will be overridden by platform specific settings
 	"highlight_line": true,                             // Use alternate background color for line where cursor is.
@@ -37,7 +37,7 @@
 		"Prefixr",
 		"JsFormat"
 	],
-	"ignored_words":																		// Ignored during spellcheck
+	"ignored_words":				                            // Ignored during spellcheck
 	[
 		"Newsmaker",
 		"Photoshop",
@@ -53,7 +53,7 @@
 	"trim_automatic_white_space": true,                 // Removes any auto-indented whitespace when moving cursor
 	"trim_trailing_white_space_on_save": true,          // When a file is saved, delete any whitespace at the end of lines
 	"wide_caret": true,                                 // Have a wider cursor marker
-	"word_wrap": "false"                                // Word wrap is off when ST starts. Can still enable / disable word wrap via View menu
+	"word_wrap": "false"                                // Set word wrap to by default for all file types / syntaxes. Can still enable / disable word wrap via View menu
 	//"default_font_size": 10,                          // For http://toomanyideas.net/2013/improve-sublime-text-2-part-1.html which I can't get working
 	//"save_on_focus_lost": true,                       // Automatically saves the file you’re editing when you leave it.
 	//"line_padding_bottom": 1,                         // Gives each line a bit of padding underneath it
