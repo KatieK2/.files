@@ -5,4 +5,5 @@ REM   Create a new name called AutoRun, and set its value to the location of thi
 @ECHO OFF
 doskey ..=cd..
 doskey bwatch=bundle exec compass watch styles/
-doskey subl="C:\Program Files\Sublime Text 2\sublime_text.exe" $*
+doskey subl="C:\Program Files\Sublime Text 3\sublime_text.exe" $*
+
