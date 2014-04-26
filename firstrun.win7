@@ -12,4 +12,4 @@
 1) Control Panel
 2) Search for "environment"
 3) Open "Edit the System Environment Variables"
-4) Set the "Prompt" environment variable to `$p\$_$g`. 
+4) Find the "Prompt" environment variable (create if doesn't exist) and set it to `$p\$_$g`. 
