@@ -1,6 +1,6 @@
 ##  Execute these from the OSX Terminal on a new machine for maximum awesome:
 
 ## Sets up a "subl" shortcut for Sublime Text. 
-sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
-## Now you can "subl file" from the terminal to open a file right in ST2, or even "subl ." to open that directory in the sidebar.
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/subl
+## Now you can "subl file" from the terminal to open a file right in ST, or even "subl ." to open that directory in the sidebar.
 
