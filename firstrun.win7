@@ -1,17 +1,23 @@
-## Set up maximium awesomeness in Windows 7
+# Set up maximium awesomeness in Windows 7
 
-## Paste into command prompt with right click
+## Command Line
+
+### Paste into command prompt with right click
 1) Command Prompt Properties
 2) Options Tab
 3) Check "QuickEdit" mode
+// Now you can 
 
-## Custom command prompt. Ex: 
-##    
-##    C:\Users\kkurkoski\Documents\git\
-##    >
+### Install https://github.com/bliker/cmder
+
+### Custom command prompt. Ex: 
+//    
+//    C:\Users\kkurkoski\Documents\git\
+//    >
 1) Control Panel
 2) Search for "environment"
 3) Open "Edit the System Environment Variables"
 4) Find the "Prompt" environment variable (create if doesn't exist) and set it to `$p\$_$g`. 
 
-# Install https://github.com/bliker/cmder
+## Sublime Text:
+1) Add ST icon to "Open With" context menu: http://bungeshea.com/open-with-sublime-text-icon/
