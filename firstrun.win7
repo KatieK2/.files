@@ -6,7 +6,7 @@
 1) Command Prompt Properties
 2) Options Tab
 3) Check "QuickEdit" mode
-// Now you can 
+// Now you can right click anywhere in the Command Prompt to paste text.
 
 ### Install https://github.com/bliker/cmder
 
@@ -18,6 +18,9 @@
 2) Search for "environment"
 3) Open "Edit the System Environment Variables"
 4) Find the "Prompt" environment variable (create if doesn't exist) and set it to `$p\$_$g`. 
+
+### Set up the autorun.bat:
+https://github.com/KatieK2/.files/blob/master/autorun.bat
 
 ## Sublime Text:
 1) Add ST icon to "Open With" context menu: http://bungeshea.com/open-with-sublime-text-icon/
