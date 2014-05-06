@@ -2,6 +2,8 @@
   // { "keys": ["ctrl+alt+t"], "command": "html_tidy"},
   // { "keys": ["ctrl+alt+f"], "command": "js_format"},
   { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+  { "keys": ["ctrl+0"], "command": "reset_font_size" },
+  { "keys": ["ctrl+keypad0"], "command": "reset_font_size" },
   { "keys": ["ctrl+shift+v"], "command": "paste" },
   { "keys": ["ctrl+shift+r"], "command": "reindent" },
   { "keys": ["ctrl+shift+w"], "command": "close_all" },
