@@ -1,19 +1,19 @@
 {
-	"afn_insert_dimensions": "false",                   // AutoFileName - don't automatically insert image dimensions
-	"bold_folder_labels": true,                         // In sidebar, show all folders with bold font
-	"caret_style": "phase",                             // Cursor blink transitions
+	"afn_insert_dimensions": "false",					// AutoFileName - don't automatically insert image dimensions
+	"bold_folder_labels": true,								// In sidebar, show all folders with bold font
+	"caret_style": "phase",										// Cursor blink transitions
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Oblivion Color Scheme/Oblivion - Soda Dark.tmTheme",
-	"ensure_newline_at_eof_on_save": true,              // Be sure all saved files end in a new line
-	"fallback_encoding": "UTF-8",                       // Use this encoding when it can't be determined automatically
-	"file_exclude_patterns":                            // Don't show in sidebar or GoToAnything
+	"ensure_newline_at_eof_on_save": true,		// Be sure all saved files end in a new line
+	"fallback_encoding": "UTF-8",							// Use this encoding when it can't be determined automatically
+	"file_exclude_patterns":									// Don't show in sidebar or GoToAnything
 	[
 		".bak",
 		".DS_Store",
 		"Thumbs.db"
 	],
-	"find_selected_text": true,                         // "Find" field is pre-seeded with highlighed text in document. Keeping this in user prefs ensures it works on OSX.
-	"folder_exclude_patterns":                          // Don't show in sidebar or GoToAnything
+	"find_selected_text": true,								// "Find" field is pre-seeded with highlighed text in document. Keeping this in user prefs ensures it works on OSX.
+	"folder_exclude_patterns":								// Don't show in sidebar or GoToAnything
 	[
 		".git",
 		".sass-cache",
@@ -21,40 +21,42 @@
 	],
 	"font_options":
 	[
-		"subpixel_antialias"                              // Prettier text
+		"subpixel_antialias"										// Prettier text
 	],
-	"font_size": 10.0,                                  // Will be overridden by platform specific settings
-	"highlight_line": true,                             // Use alternate background color for line where cursor is.
-	"highlight_modified_tabs": true,                    // Use special color for filename of an unsaved tab.
-	"tab_size": 2,                                      // How many spaces is a tab equal to?
+	"highlight_line": true,										// Use alternate background color for line where cursor is.
+	"highlight_modified_tabs": true,					// Use special color for filename of an unsaved tab.
 	"ignored_packages":
 	[
-		"Vintage",
-		"Sublimerge Pro",
-		"HtmlTidy",
-		"SublimeOnSaveBuild",
-		"SASS Build",
+		"Markdown",
 		"Prefixr",
-		"JsFormat"
+		"SCSS",
+		"SASS Build",
+		"SublimeOnSaveBuild",
+		"HtmlTidy",
+		"AutoFileName",
+		"RevertFontSize",
+		"Vintage"
 	],
-	"ignored_words":				                            // Ignored during spellcheck
+	"ignored_words":													// Ignored during spellcheck
 	[
 		"Newsmaker",
 		"Photoshop",
 		"css",
+		"sautéed",
 		"scss",
+		"snickerdoodle",
+		"snickerdoodles",
 		"stylesheet",
 		"stylesheets"
 	],
-	"open_files_in_new_window": false,                  // Whether OSX open dragged-in files in a new ST window
-	"show_full_path": true,                             // Whether title bar shows entire file path instead of just name. Keeping this in user prefs ensures it works on OSX.
-	"tab_size": 2,
+	"open_files_in_new_window": false,				// Whether OSX open dragged-in files in a new ST window
+	"show_full_path": true,										// Whether title bar shows entire file path instead of just name. Keeping this in user prefs ensures it works on OSX.
+	"tab_size": 2,														// How many spaces is a tab equal to?
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,                 // Removes any auto-indented whitespace when moving cursor
-	"trim_trailing_white_space_on_save": true,          // When a file is saved, delete any whitespace at the end of lines
-	"wide_caret": true,                                 // Have a wider cursor marker
-	"word_wrap": "false"                                // Set word wrap to by default for all file types / syntaxes. Can still enable / disable word wrap via View menu
-	//"default_font_size": 10,                          // For http://toomanyideas.net/2013/improve-sublime-text-2-part-1.html which I can't get working
-	//"save_on_focus_lost": true,                       // Automatically saves the file you’re editing when you leave it.
-	//"line_padding_bottom": 1,                         // Gives each line a bit of padding underneath it
+	"trim_automatic_white_space": true,				// Removes any auto-indented whitespace when moving cursor
+	"trim_trailing_white_space_on_save": true,// When a file is saved, delete any whitespace at the end of lines
+	"wide_caret": true,												// Have a wider cursor marker
+	"word_wrap": "false"											// Set word wrap to by default for all file types / syntaxes. Can still enable / disable word wrap via View menu
+  //"save_on_focus_lost": true, // Automatically saves the file you’re editing when you leave it.
+  //"line_padding_bottom": 1, // Gives each line a bit of padding underneath it
 }
