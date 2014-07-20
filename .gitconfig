@@ -7,7 +7,7 @@
 	sslVerify = false
 [core]
 	autocrlf = true
-	editor = 'C:\\Program Files\\Sublime Text 2\\sublime_text.exe' -w
+	editor = 'C:\\Program Files\\Sublime Text 3\\sublime_text.exe' -w
 [push]
 	default = current
 [branch]
