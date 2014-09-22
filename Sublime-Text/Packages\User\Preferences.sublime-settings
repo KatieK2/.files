@@ -1,20 +1,20 @@
 {
-	"afn_insert_dimensions": "false",		// AutoFileName - don't automatically insert image dimensions
-	"bold_folder_labels": true,			// In sidebar, show all folders with bold font
-	"caret_style": "phase",				// Cursor blink transitions
+	"afn_insert_dimensions": "false",
+	"bold_folder_labels": true,
+	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Oblivion Color Scheme/Oblivion - Soda Dark.tmTheme",
 	"copy_with_empty_selection": false,
-	"ensure_newline_at_eof_on_save": true,		// Be sure all saved files end in a new line
-	"fallback_encoding": "UTF-8",			// Use this encoding when it can't be determined automatically
-	"file_exclude_patterns":			// Don't show in sidebar or GoToAnything
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"file_exclude_patterns":
 	[
 		".bak",
 		".DS_Store",
 		"Thumbs.db"
 	],
-	"find_selected_text": true,			// "Find" field is pre-seeded with highlighed text in document. Keeping this in user prefs ensures it works on OSX.
-	"folder_exclude_patterns":			// Don't show in sidebar or GoToAnything
+	"find_selected_text": true,
+	"folder_exclude_patterns":
 	[
 		".git",
 		".sass-cache",
@@ -22,23 +22,28 @@
 	],
 	"font_options":
 	[
-		"subpixel_antialias"			// Prettier text
+		"subpixel_antialias"
 	],
-	"highlight_line": true,				// Use alternate background color for line where cursor is.
-	"highlight_modified_tabs": true,		// Use special color for filename of an unsaved tab.
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Prefixr",
-		"SCSS",
-		"SASS Build",
 		"SublimeOnSaveBuild",
-		"HtmlTidy",
+		"Prefixr",
+		"Theme - Flatland",
+		"SideBarEnhancements",
+		"Vintage",
+		"ColorSchemeEditor",
+		"Markdown",
+		"SASS Build",
+		"Predawn",
+		"Git Conflict Resolver",
 		"AutoFileName",
-		"RevertFontSize",
-		"Vintage"
+		"SCSS",
+		"Theme - itg.flat",
+		"HTML5"
 	],
-	"ignored_words":													// Ignored during spellcheck
+	"ignored_words":
 	[
 		"Newsmaker",
 		"Photoshop",
@@ -48,16 +53,37 @@
 		"snickerdoodle",
 		"snickerdoodles",
 		"stylesheet",
-		"stylesheets"
+		"stylesheets",
+		"Kurkoski",
+		"Arduino",
+		"Arduino's",
+		"Arduinos",
+		"Uno",
+		"Uno's",
+		"gauge",
+		"wifi",
+		"programmatically",
+		"microcontroller",
+		"microcontrollers",
+		"Firmata",
+		"nodebots",
+		"nodebot's",
+		"nodebot",
+		"timestamp",
+		"Sparkfun",
+		"Adafruit",
+		"Tessel",
+		"uninstall",
+		"Uninstall",
+		"mucosal"
 	],
-	"open_files_in_new_window": false,		// Whether OSX open dragged-in files in a new ST window
-	"show_full_path": true,				// Whether title bar shows entire file path instead of just name. Keeping this in user prefs ensures it works on OSX.
-	"tab_size": 2,														// How many spaces is a tab equal to?
+	"open_files_in_new_window": false,
+	"revert_font_size": 10,
+	"show_full_path": true,
+	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,		// Removes any auto-indented whitespace when moving cursor
-	"trim_trailing_white_space_on_save": true,	// When a file is saved, delete any whitespace at the end of lines
-	"wide_caret": true,				// Have a wider cursor marker
-	"word_wrap": "false"				// Set word wrap to by default for all file types / syntaxes. Can still enable / disable word wrap via View menu
-  //"save_on_focus_lost": true, // Automatically saves the file you’re editing when you leave it.
-  //"line_padding_bottom": 1, // Gives each line a bit of padding underneath it
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": "false"
 }
