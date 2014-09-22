@@ -1,12 +1,26 @@
 [
-  // { "keys": ["ctrl+alt+t"], "command": "html_tidy"},
   // { "keys": ["ctrl+alt+f"], "command": "js_format"},
+  // { "keys": ["ctrl+super+g"], "command": "find_all_under" },
   { "keys": ["ctrl+v"], "command": "paste_and_indent" },
   { "keys": ["ctrl+0"], "command": "reset_font_size" },
   { "keys": ["ctrl+keypad0"], "command": "reset_font_size" },
   { "keys": ["ctrl+shift+v"], "command": "paste" },
   { "keys": ["ctrl+shift+r"], "command": "reindent" },
   { "keys": ["ctrl+shift+w"], "command": "close_all" },
+
+  { "keys": ["alt+shift+j"], "command": "set_file_type",
+    "args": { "syntax": "Packages/JavaScript/JavaScript.tmLanguage"}
+  },
+  { "keys": ["alt+shift+h"], "command": "set_file_type",
+    "args": { "syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"}
+  },
+  { "keys": ["alt+shift+m"], "command": "set_file_type",
+    "args": { "syntax": "Packages/Markdown/Markdown.tmLanguage"}
+  },
+  { "keys": ["alt+shift+c"], "command": "set_file_type",
+    "args": { "syntax": "Packages/CSS/CSS.tmLanguage"}
+  },
+
   { "keys": ["ctrl+tab"], "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
   { "keys": ["alt+w"], "command": "toggle_setting",
