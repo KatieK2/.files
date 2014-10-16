@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+//   initialize; condition; increment
+//   at start; evaluate before each iteration; execute at end of iteration
+for (var i = 0; i < 9; i++) {
+   n += i;
+   myfunc(n);
+}
+]]></content>
+	<tabTrigger>jsfor</tabTrigger>
+	<scope>source.html, source.js</scope>
+	<description>JavaScript For Loop</description>
+</snippet>

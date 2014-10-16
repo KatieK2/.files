@@ -28,20 +28,15 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"SublimeOnSaveBuild",
-		"Prefixr",
-		"Theme - Flatland",
-		"SideBarEnhancements",
 		"Vintage",
-		"ColorSchemeEditor",
-		"Markdown",
+		"SideBarEnhancements",
 		"SASS Build",
-		"Predawn",
-		"Git Conflict Resolver",
-		"AutoFileName",
+		"SublimeOnSaveBuild",
 		"SCSS",
-		"Theme - itg.flat",
-		"HTML5"
+		"Prefixr",
+		"Predawn",
+		"HTML5",
+		"Markdown"
 	],
 	"ignored_words":
 	[
@@ -75,15 +70,25 @@
 		"Tessel",
 		"uninstall",
 		"Uninstall",
-		"mucosal"
+		"mucosal",
+		"grey"
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
 	"open_files_in_new_window": false,
 	"revert_font_size": 10,
 	"show_full_path": true,
 	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}~?",
 	"word_wrap": "false"
 }

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+background: #fff url(${1:img/bg.png}) no-repeat left center;
+]]></content>
+	<tabTrigger>bg</tabTrigger>
+	<scope>source.css, source.sass, source.scss</scope>
+	<description>CSS Background Image</description>
+</snippet>

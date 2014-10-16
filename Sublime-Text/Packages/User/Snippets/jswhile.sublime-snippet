@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+var n = 0;
+var x = 0;
+ 
+while (n < 3) {
+  n++;
+  x += n;
+}
+]]></content>
+	<tabTrigger>jswhile</tabTrigger>
+	<scope>source.html, source.js</scope>
+	<description>JavaScript While Loop</description>
+</snippet>

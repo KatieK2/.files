@@ -1,0 +1,14 @@
+{
+  "snippets": {
+    "css": {
+      "snippets": {
+        "m0a": "margin: 0 auto;"
+      }
+    },
+    "html": {
+      "snippets": {
+        "fig": "<figure>${newline}  <img src=\"${1:images/}\" alt=\"${2}\" />${newline}  <figcaption>${3}</figcaption>${newline}</figure>"
+      }
+    }
+  }
+}
