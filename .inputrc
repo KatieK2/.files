@@ -1,4 +1,4 @@
-##  OSX 10.8.5 (Laika)
+#Create as ~/.inputrc
 
-set completion-ignore-case On
 ## Make Terminal autocomplete case-insensitive
+set completion-ignore-case on
