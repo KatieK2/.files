@@ -1,7 +1,6 @@
 #  Execute these from the OSX Terminal on a new machine for maximum awesome:
 
-## Make the terminal non-case sensitive when typing:
-
+##Create ~/.inputrc with contents from .inputrc in this repo
 
 ## Set up a "subl" shortcut for Sublime Text. 
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/subl
