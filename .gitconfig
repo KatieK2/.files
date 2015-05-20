@@ -8,6 +8,8 @@
 [core]
 	autocrlf = true
 	editor = 'C:\\Program Files\\Sublime Text 3\\sublime_text.exe' -w
+	##editor = subl -n -w ## For OSX if subl is installed
+
 [push]
 	default = current
 [branch]
