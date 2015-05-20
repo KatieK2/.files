@@ -12,7 +12,7 @@ alias cls="clear"
 
 ## Open man pages in Sublime
 sman() {
-    man "${1}" | col -b | open -f -a /Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2
+  man "${1}" | col -b | open -f -a /Applications/Sublime\ Text.app
 }
 
 ## tell ls to be colourful
