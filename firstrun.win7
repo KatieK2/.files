@@ -23,4 +23,10 @@
 https://github.com/KatieK2/.files/blob/master/autorun.bat
 
 ## Sublime Text:
-1) Add ST icon to "Open With" context menu: http://bungeshea.com/open-with-sublime-text-icon/
+
+Sublime Text 3 installs a right-click menu item to open files with Sublime Text, but there's a bit more you can do:
+
+### Add the ST icon to the "Open With Sublime Text" context menu: (from http://bungeshea.com/open-with-sublime-text-icon/)
+1) Open the registry editor by searching for regedit.
+2) Navigate to this key: `HKEY_CLASSES_ROOT\*\shell\Open with Sublime Text`
+#) Create a new "String Value" with Name=Icon, and Data = the Sublime executable, ex "C:\Program Files\Sublime Text 3\sublime_text.exe"
