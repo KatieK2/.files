@@ -30,3 +30,7 @@ Sublime Text 3 installs a right-click menu item to open files with Sublime Text,
 1) Open the registry editor by searching for regedit.
 2) Navigate to this key: `HKEY_CLASSES_ROOT\*\shell\Open with Sublime Text`
 #) Create a new "String Value" with Name=Icon, and Data = the Sublime executable, ex "C:\Program Files\Sublime Text 3\sublime_text.exe"
+
+### Set up syncing
+
+Follow the "Subsequent Computers" instructions at http://pewpewlaser.com/blogs/593
