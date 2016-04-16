@@ -4,8 +4,8 @@
 
 Open a new tab and go to `about.config`. Search for each of the following values, and change them to the new one specified.
 
-browser.search.openintab: true
-view_source.wrap_long_lines: true
+ * browser.search.openintab: `true`
+ * view_source.wrap_long_lines: `true`
 
 ##Bookmarks
 
