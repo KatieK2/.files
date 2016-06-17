@@ -6,6 +6,8 @@ Open a new tab and go to `about:config`. Search for each of the following values
 
  * browser.search.openintab: `true`
  * view_source.wrap_long_lines: `true`
+ * view_source.editor.external: `true`
+ * view_source.editor.path: `Applications/Sublime Text.app/Contents/SharedSupport/bin/subl`
 
 ##Bookmarks
 
