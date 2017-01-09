@@ -1,5 +1,9 @@
 #Setting up Firefox for Maximum Awesomeness
 
+##Preferences
+
+ Open the *Preferences*, then go to the *Applications* tab. Find the *mailto* Content Type, and use the drop-down to change it to "Use Gmail".
+
 ##Config
 
 Open a new tab and go to `about:config`. Search for each of the following values, and change them to the new one specified.
