@@ -1,4 +1,4 @@
-# Set up maximium awesomeness in Windows 7. These instructions pretty much work in Windows 10.
+# Set up maximium awesomeness in Windows 10. These instructions pretty much work in Windows 7.
 
 ## Command Line
 
@@ -20,11 +20,25 @@
 ## Add a Cmder shortcut (https://github.com/bliker/cmder)
 1) Right-drag the Cmder.exe icon to the desktop, and choose "Create Shortcut here" from the context menu.
 2) Rename that shortcut.
-3) Drag it to the Start Menu to pin it here.
-3) Move that shortcut into `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\`.
+3) Right-click it, go to the Shortcut Tab, click Advanced, and check the "Run As Administrator" box.
+3) Move that shortcut into `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\` to add it to the Start Menu.
 
 ### Set up the autorun.bat:
 https://github.com/KatieK2/.files/blob/master/autorun.bat
+
+### Send To menu
+1) Paste `shell:sendto` into the Run box (<kdb>Windows Key + r<kdb>).
+2) Delete everything other than *Compressed (zipped) folder* and *Dropbox*.
+3) Create a shortcut to Sublime Text.
+
+### RegEdit
+1) http://lifehacker.com/how-to-get-rid-of-the-onedrive-icon-in-windows-10s-file-1722592615
+2) http://www.tekrevue.com/tip/remove-creative-cloud-files-file-explorer-sidebar/
+
+### File Explorer
+1) 
+2)
+3)
 
 ## Sublime Text:
 
@@ -38,3 +52,4 @@ Sublime Text 3 installs a right-click menu item to open files with Sublime Text,
 ### Set up syncing
 
 Follow the "Subsequent Computers" instructions at http://pewpewlaser.com/blogs/593
+
