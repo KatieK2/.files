@@ -1,11 +1,17 @@
 #Setting up Firefox for Maximum Awesomeness
 
+##Preferences
+
+ Open the *Preferences*, then go to the *Applications* tab. Find the *mailto* Content Type, and use the drop-down to change it to "Use Gmail".
+
 ##Config
 
-Open a new tab and go to `about.config`. Search for each of the following values, and change them to the new one specified.
+Open a new tab and go to `about:config`. Search for each of the following values, and change them to the new one specified.
 
  * browser.search.openintab: `true`
  * view_source.wrap_long_lines: `true`
+ * view_source.editor.external: `true`
+ * view_source.editor.path: `Applications/Sublime Text.app/Contents/SharedSupport/bin/subl` for OSX or `C:\Program Files\Sublime Text 3\sublime_text.exe` for Windows.
 
 ##Bookmarks
 

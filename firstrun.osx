@@ -6,7 +6,15 @@
 
 // Now you can "subl file" from the terminal to open a file right in ST, or even "subl ." to open that directory in the sidebar.
 
-##Create ~/.inputrc with contents of .inputrc in this repo
+## Create ~/.inputrc with contents of .inputrc in this repo
+
+## File System
+
+### Make markdown files open in Sublime Text, not Xcode
+1. Find any .md file. Right clicking it and choose *Get Info*.
+1. Under the *Open with* section, choose Sublime Text from the dropdown menu.
+1. Choose *Change All...* and then confirm the diaglog message.
+1. Repeat as desired for other file types, such as .txt files.
 
 ## Preferences
 
