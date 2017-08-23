@@ -36,7 +36,7 @@ https://github.com/KatieK2/.files/blob/master/autorun.bat
 2) http://www.tekrevue.com/tip/remove-creative-cloud-files-file-explorer-sidebar/
 
 ### File Explorer
-1) 
+1) Change the file assotiations. Right click each of these types of files, and click "Change" near "Open With". Under "Other Options", click "More Apps", then select the appropriate application. .js, .md -> Sublime Text.
 2)
 3)
 
