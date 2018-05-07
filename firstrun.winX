@@ -1,5 +1,12 @@
 # Set up maximium awesomeness in Windows 10. These instructions pretty much work in Windows 7.
 
+## Install apps:
+1) Firefox
+1) Sublime Text
+1) Dropbox
+1) Git
+1) Ruby
+
 ## Command Line
 
 ### Paste into command prompt with right click
@@ -15,12 +22,13 @@
 1) Control Panel
 2) Search for "environment"
 3) Open "Edit the System Environment Variables"
-4) Find the "Prompt" environment variable (create if doesn't exist) and set it to `$p\$_$g`. 
+4) In the "Advanced" tab, click "Environment Variables".
+4) Find the "Prompt" environment variable (create under "User Variables" if it doesn't exist) and set it to `$p\$_$g`. 
 
 ## Add a Cmder shortcut (https://github.com/bliker/cmder)
 1) Right-drag the Cmder.exe icon to the desktop, and choose "Create Shortcut here" from the context menu.
 2) Rename that shortcut.
-3) Right-click it, go to the Shortcut Tab, click Advanced, and check the "Run As Administrator" box.
+3) Right-click it, open the "Properties" and go to the "Shortcut" tab. Click Advanced, and check the "Run As Administrator" box. Click all the "OK"s. 
 3) Move that shortcut into `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\` to add it to the Start Menu.
 
 ### Set up the autorun.bat:
@@ -36,8 +44,8 @@ https://github.com/KatieK2/.files/blob/master/autorun.bat
 2) http://www.tekrevue.com/tip/remove-creative-cloud-files-file-explorer-sidebar/
 
 ### File Explorer
-1) Change the file assotiations. Right click each of these types of files, and click "Change" near "Open With". Under "Other Options", click "More Apps", then select the appropriate application. .js, .md -> Sublime Text.
-2)
+1) Open a File Explorer window (right-click the Start button and choose "File Explorer"). Go to the "View" tab. Check the boxes for "File name extensions" and "Hidden items".
+2) Change the file associations: Right click each of these types of files, and click "Change" near "Open With". Under "Other Options", click "More Apps", then select the appropriate application. .js, .md -> Sublime Text.
 3)
 
 ## Sublime Text:
