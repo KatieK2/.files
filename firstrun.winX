@@ -6,7 +6,6 @@ Protip: You can easily access a lot of the important stuff in Windows 10 by righ
 1) Firefox
 1) Sublime Text
 1) Dropbox
-1) Git
 1) Node
 1) Creative Cloud
 1) FileZilla
@@ -51,6 +50,11 @@ https://github.com/KatieK2/.files/blob/master/autorun.bat
 1) Delete those useless short-cuts. Right-click them and choose delete.
 1) In the "Lock Screen" tab, click "Power & Sleep" and set "Screen" to 15 minutes, and "Sleep" to 30 minutes. 
 
+## Git:
+1) Install Git.
+1) Copy the `.gitconfig` file to `c:\Users\[you]`
+1) Copy the `.gitignore` file to `c:\Users\[you]`
+
 ## Photos:
 1) Open the Photos app.
 1) Add the following directories:
@@ -58,7 +62,6 @@ https://github.com/KatieK2/.files/blob/master/autorun.bat
   * C:\Users\Katie\Dropbox\Camera Uploads
 
 ## Sublime Text:
-
 Sublime Text 3 installs a right-click menu item to open files with Sublime Text, but there's a bit more you can do:
 
 ### Add the ST icon to the "Open With Sublime Text" context menu: (from http://bungeshea.com/open-with-sublime-text-icon/)
@@ -91,7 +94,7 @@ Sublime Text 3 installs a right-click menu item to open files with Sublime Text,
 1) Add favorite things to Start menu: Drag them over, resize as needed and remove the other stuff.
 1) For each of the following, right click, choose "More", and then choose "Turn Live Tile On": Photos, Weather.
 
-## Fix up the Multitasking
+## Fix up Windows Multitasking
 1) Find "System" and go to "Multitasking".
 1) Set "Show suggestions occasionally in Timeline" to off.
 
