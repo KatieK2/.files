@@ -1,23 +1,26 @@
 # Set up maximium awesomeness in Windows 10. These instructions pretty much work in Windows 7.
 
-## Install apps:
+Protip: You can easily access a lot of the important stuff in Windows 10 by right-clicking the Start button. 
+
+## Install:
 1) Firefox
 1) Sublime Text
 1) Dropbox
 1) Git
-1) Ruby
+1) Node
+1) Creative Cloud
+1) FileZilla
 
 ## Command Line
 
 ### Paste into command prompt with right click
+// Now you can right click anywhere in the Command Prompt to paste text.
 1) Command Prompt Properties
 2) Options Tab
 3) Check "QuickEdit" mode
-// Now you can right click anywhere in the Command Prompt to paste text.
 
-### Customize command prompt. Ex: 
-//    
-//    C:\Users\kkurkoski\Documents\git\
+### Customize the Command Prompt. Ex: 
+//    C:\Users\KatieK\Documents\git\
 //    >
 1) Control Panel
 2) Search for "environment"
@@ -25,28 +28,34 @@
 4) In the "Advanced" tab, click "Environment Variables".
 4) Find the "Prompt" environment variable (create under "User Variables" if it doesn't exist) and set it to `$p\$_$g`. 
 
-## Add a Cmder shortcut (https://github.com/bliker/cmder)
-1) Right-drag the Cmder.exe icon to the desktop, and choose "Create Shortcut here" from the context menu.
-2) Rename that shortcut.
-3) Right-click it, open the "Properties" and go to the "Shortcut" tab. Click Advanced, and check the "Run As Administrator" box. Click all the "OK"s. 
-3) Move that shortcut into `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\` to add it to the Start Menu.
-
 ### Set up the autorun.bat:
 https://github.com/KatieK2/.files/blob/master/autorun.bat
 
-### Send To menu
-1) Paste `shell:sendto` into the Run box (<kdb>Windows Key + r<kdb>).
-2) Delete everything other than *Compressed (zipped) folder* and *Dropbox*.
-3) Create a shortcut to Sublime Text.
+## Set up Cmder (https://github.com/bliker/cmder)
+1) Right-drag the Cmder.exe icon (from the source .exe file) to the desktop, and choose "Create Shortcut here" from the context menu.
+1) Rename that shortcut to "Cmder".
+1) Right-click it, open the "Properties" and go to the "Shortcut" tab. Click Advanced, and check the "Run As Administrator" box. Click all the "OK"s. 
+1) Move that shortcut into `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\` to add it to the Start Menu.
+1) *Sigh*. Restart Windows.
+1) Run Cmder and, in the Taskbar, right click it and choose "Pin to Taskbar".
 
-### RegEdit
-1) http://lifehacker.com/how-to-get-rid-of-the-onedrive-icon-in-windows-10s-file-1722592615
-2) http://www.tekrevue.com/tip/remove-creative-cloud-files-file-explorer-sidebar/
+## Desktop:
+1) Add "My Computer": Right-click the Desktop and choose "Personalize."
+  1) In the "Background" tab, under "Choose your picture", click Browse and choose your favorite desktop photo. 
+  1) In the "Colors" tab, under "Choose your color", put a check in the box for "Automatically pick an accent color". 
+  1) In the "Lock Screen" tab, set the "Background" to "Slideshow". Click "Add a folder". Choose your photos folder - C:\Users\Katie\Dropbox\Design Assets\Backgrounds for example.
+  Also in the "Lock Screen" tab, set the "Get fun facts" slider to off.
+  1) In the "Themes" tab, under "Related Settings" on the right side, click "Desktop icon settings". Put a check in the box for "Computer". Then click "OK".
+  1) In the "Taskbar" tab, under "People", set all sliders to Off.
 
-### File Explorer
-1) Open a File Explorer window (right-click the Start button and choose "File Explorer"). Go to the "View" tab. Check the boxes for "File name extensions" and "Hidden items".
-2) Change the file associations: Right click each of these types of files, and click "Change" near "Open With". Under "Other Options", click "More Apps", then select the appropriate application. .js, .md -> Sublime Text.
-3)
+1) Delete those useless short-cuts. Right-click them and choose delete.
+1) In the "Lock Screen" tab, click "Power & Sleep" and set "Screen" to 15 minutes, and "Sleep" to 30 minutes. 
+
+## Photos:
+1) Open the Photos app.
+1) Add the following directories:
+  * C:\Photos
+  * C:\Users\Katie\Dropbox\Camera Uploads
 
 ## Sublime Text:
 
@@ -58,6 +67,43 @@ Sublime Text 3 installs a right-click menu item to open files with Sublime Text,
 #) Create a new "String Value" with Name=Icon, and Data = the Sublime executable, ex "C:\Program Files\Sublime Text 3\sublime_text.exe"
 
 ### Set up syncing
+1) Follow the "Subsequent Computers" instructions at http://pewpewlaser.com/blogs/593
 
-Follow the "Subsequent Computers" instructions at http://pewpewlaser.com/blogs/593
+## Fix up File Explorer
+1) Open a File Explorer window (right-click the Start button and choose "File Explorer"). Go to the "View" tab. Check the boxes for "File name extensions" and "Hidden items".
+2) Change the file associations: Right click each of these types of files, and click "Change" near "Open With". Under "Other Options", click "More Apps", then select the appropriate application. .js, .md -> Sublime Text.
 
+## Fix up the Send To menu
+1) Paste `shell:sendto` into the Run box (<kdb>Windows Key + r<kdb>).
+1) Delete everything other than *Compressed (zipped) folder* and *Desktop*.
+1) Create a shortcut to Sublime Text - copy it from `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
+1) Create a shortcut to Drobox - copy it from `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`.
+
+## Fix up the Taskbar
+1) Right-click on each of these and choose "Unpin": Mail, Explorer.
+1) Right-click anywhere on the Taskbar, choose "Cortana", and then choose "Hidden".
+1) When you open pin-worthy apps, right-click on their icons in the Taskbar and choose "Pin to Taskbar".
+
+## Fix up the Start Menu
+1) Find "Personalization" and go to "Start".
+1) Set "Show suggestions occasionally in Start" to off.
+1) Set "Show more tiles on Start" to On.
+1) Add favorite things to Start menu: Drag them over, resize as needed and remove the other stuff.
+1) For each of the following, right click, choose "More", and then choose "Turn Live Tile On": Photos, Weather.
+
+## Fix up the Multitasking
+1) Find "System" and go to "Multitasking".
+1) Set "Show suggestions occasionally in Timeline" to off.
+
+## More RegEdit fixes
+1) http://lifehacker.com/how-to-get-rid-of-the-onedrive-icon-in-windows-10s-file-1722592615
+2) http://www.tekrevue.com/tip/remove-creative-cloud-files-file-explorer-sidebar/
+
+## Music
+1) Install iTunes
+1) Copy music from backup drive
+1) Copy playlists from backup drive
+
+## Need to add:
+Always run Command Prompt and CMDR as Admin.
+Install git shortcuts
